@@ -8,5 +8,15 @@
 }
 
 .container {
-    background-color: lightgray;
+    /* position: static; */
+    /* background-color: green; */
+}
+
+#main-left,
+#figure {
+    float: left;
+}
+
+#figure {
+    position: relative;
 }
