@@ -6,3 +6,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+.container {
+    background-color: lightgray;
+}
