@@ -1,6 +1,8 @@
 .header h1 {
     margin: 0;
-    padding: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: lightseagreen;
-    border-color: lightslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
