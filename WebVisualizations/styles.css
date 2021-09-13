@@ -1,3 +1,7 @@
+body {
+    background-color: lightgray;
+}
+
 .header h1 {
     margin: 0;
     padding-top: 30px;
@@ -9,7 +13,7 @@
 
 .container {
     /* position: static; */
-    /* background-color: green; */
+    background-color: white;
 }
 
 #main-left,
@@ -19,4 +23,8 @@
 
 #figure {
     position: relative;
+}
+
+#vis-images {
+    width="200" ;
 }
