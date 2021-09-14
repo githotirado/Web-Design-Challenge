@@ -11,14 +11,26 @@
   </head>
   <body>
     <!-- The Nav Bar -->
-    <!-- <nav class="navbar">Navbar placeholder</nav> -->
         <nav class="navbar">
             <section id="titlebox" class="col-md-6">
-                <h1>Lattitude</h1>
+                <section id="titlealone" class="col-md-4">
+                    <a href="index.html">Lattitude</a>
+                </section>
             </section>
             <section id="navlinks" class="col-md-6">
                 <ul>
-                    <li>Plots</li>
+                    <!-- <li>Plots</li> -->
+                    <li class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Plots
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="/plot1.html">vs Max Temperature</a></li>
+                          <li><a class="dropdown-item" href="/plot2.html">vs Humidity</a></li>
+                          <li><a class="dropdown-item" href="/plot3.html">vs Cloudiness</a></li>
+                          <li><a class="dropdown-item" href="/plot4.html">vs Wind Speed</a></li>
+                        </ul>
+                    </li>
                     <li>Comparison</li>
                     <li>Data</li>
                 </ul>
@@ -34,7 +46,7 @@
                 </header>
                 <hr>
                 <section id="figure">
-                    <img src="Resources/Fig1.png" width="250" alt="City Latitude vs Max Temp">
+                    <img src="Resources/Fig1.png" width="250" alt="City Latitude vs Max Temperature">
                 </section>
                 <p>
                     The purpose of this project was to analyze how weather changes as you get closer to the equator.
@@ -55,16 +67,16 @@
                 </header>
                 <hr>
                 <section id="vis-images">
-                    <img src="Resources/Fig1.png" width="200" alt="City Latitude vs Max Temp">
+                    <img src="Resources/Fig1.png" width="200" alt="City Latitude vs Max Temperature">
                     <img src="Resources/Fig2.png" width="200" alt="City Latitude vs Humidity">
                     <img src="Resources/Fig3.png" width="200" alt="City Latitude vs Cloudiness">
                     <img src="Resources/Fig4.png" width="200" alt="City Latitude vs Wind Speed">
                 </section>
             </section>
         </div>
-
     </div>
-    <!-- Optional JavaScript -->
+    <footer>&copy Copyright Coding Bootcamp 2017</footer>
+    <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
