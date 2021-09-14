@@ -2,6 +2,16 @@ body {
     background-color: lightgray;
 }
 
+.navbar {
+    padding: 10px;
+    background-color: white;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px;
+}
+
 .header h1 {
     margin: 0;
     padding-top: 30px;
@@ -9,10 +19,27 @@ body {
     color: lightseagreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: x-large;
+}
+
+.box-set {
+    position: relative;
+    background: white;
+}
+
+.box {
+    /* Absolute Position */
+    position: absolute;
+
+}
+/* Box Rules to position them */
+.box-1 {
+    top: 20px;
+    left: 10px;
+    right: 10px;
 }
 
 .container {
-    /* position: static; */
     background-color: white;
 }
 
@@ -21,10 +48,22 @@ body {
     float: left;
 }
 
+#main-left,
+#vis-right {
+    padding: 30px;
+}
+
 #figure {
     position: relative;
 }
 
-#vis-images {
-    width="200" ;
+#titlebox {
+    background-color: lightseagreen;
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navlinks {
+    text-align: right;
 }
