@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+}
+
+.navbar {
+    background-color: gray;
+    height: 80px;
+    width: auto;
+    /* margin-left: 0;
+    margin-right: 0; */
+}
+
+.mainbody {
+    background-color: blue;
+    height: fit-content;
+}
+
+h1 {
+    height: 500px;
+}
+
+.footer {
+    background-color: darkgray;
+    height: 50px;
+    /* position: relative; */
+    /* bottom: 100%; */
+}
+
+.box-set {
+    position: relative;
+    background: white;
+}
+
+.box {
+    /* Absolute Position */
+    position: absolute;
+
+}
+/* Box Rules to position them */
+.box-1 {
+    top: 20px;
+    left: 10px;
+    right: 10px;
+}
