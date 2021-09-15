@@ -110,15 +110,49 @@ body {
 .box-1 {
     background-color: white;
     top: 50px;
-    bottom: 50px;
-    left: 5%;
-    right: 40%;
+    bottom: 40px;
+    left: 6%;
+    right: 41%;
+    z-index: 2;
+}
+
+.box-1-outer {
+    background: white;
+    top: 50px;
+    bottom: 40px;
+    left: 4%;
+    right: 39%;
+    z-index: 1;
 }
 
 .box-2 {
     background-color: white;
     top: 50px;
-    bottom: 50px;
-    left: 65%;
-    right: 5%;
+    bottom: 40px;
+    left: 66%;
+    right: 6%;
+    z-index: 2;
+}
+
+.box-2-outer {
+    background: white;
+    top: 50px;
+    bottom: 40px;
+    left: 64%;
+    right: 4%;
+    z-index: 1;
+}
+
+.box-footer {
+    color: white;
+    background-color: darkgray;
+    height: 50px;
+    text-align: center;
+    padding: 25px;
+    bottom: 0%;
+    /* border-color: lightseagreen;
+    border-top: lightseagreen;
+    border-top-width: 50px; */
+    /* position: relative; */
+    /* bottom: 100%; */
 }
