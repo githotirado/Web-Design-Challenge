@@ -45,42 +45,51 @@
     </nav>
     <main class="mainbody">
         <section class="box-set">
-            <section class="box box-1-outer">
+            <section class="box box-sum-outer">
             </section>
-            <section class="box box-1">
+            <section class="box box-sum">
                 <header class="header">
                     <h1>Max Temperature</h1>
                 </header>
                 <hr>
-                <section id="figure">
-                    <img src="Resources/Fig1.png" width="200" height="200" alt="City Latitude vs Max Temperature">
+                <!-- <section id="figure" class="box-sum-1"> -->
+                <section class="box-sum-1">
+                    <img src="Resources/temp.png" width="600" height="300" alt="City Latitude vs Max Temperature">
                 </section>
-                <section id="main-left">
+                <section class="main-left" id="main-left-vis">
                     <p>
-                        Observations: The above chart demonstrates that the density of recorded temperatures increases as you move 
-                        toward the equator (latitude = 0) from the poles (latitude=-90, latitude=90).  In the month of July, the 
-                        earth's tilt lends more exposure in the northern hemisphere (latitude > 0) to the sun which is why the recorded 
-                        temperatures are highest in the (20 < latitude < 40) band than its counterpart in the southern hemisphere.
+                        The above chart demonstrates that the density of recorded temperatures 
+                        increases as you move toward the equator (latitude = 0) from the poles (latitude=-90, 
+                        latitude=90).  In the month of July, the earth's tilt lends more exposure in the northern 
+                        hemisphere (latitude > 0) to the sun which is why the recorded temperatures are highest in 
+                        the (20 < latitude < 40) band than its counterpart in the southern hemisphere.
                     </p>
                 </section>
             </section>
-            <section class="box box-2-outer">
+            <section class="box box-vis-outer">
             </section>
-            <section class="box box-2">
+            <section class="box box-vis">
                 <header class="header">
                     <h1>Visualizations</h1>
                 </header>
                 <hr>
-                <section id="vis-images">
-                    <img src="Resources/Fig1.png" width="150" height="150" alt="City Latitude vs Max Temperature">
-                    <img src="Resources/Fig2.png" width="150" height="150" alt="City Latitude vs Humidity">
-                    <img src="Resources/Fig3.png" width="150" height="150" alt="City Latitude vs Cloudiness">
-                    <img src="Resources/Fig4.png" width="150" height="150" alt="City Latitude vs Wind Speed">
+                <!-- <section id="vis-images"> -->
+                <section class="box box-vis-1 box-vis-active">
+                    <img src="Resources/temp.png" width="150" height="150" alt="City Latitude vs Max Temperature">
+                </section>
+                <section class="box box-vis-2">
+                    <img src="Resources/humidity.png" width="150" height="150" alt="City Latitude vs Humidity">
+                </section>
+                <section class="box box-vis-3">
+                    <img src="Resources/cloudiness.png" width="150" height="150" alt="City Latitude vs Cloudiness">
+                </section>
+                <section class="box box-vis-4">
+                    <img src="Resources/windspeed.png" width="150" height="150" alt="City Latitude vs Wind Speed">
                 </section>
             </section>
-            <section class="box-set box-footer">
+            <!-- <section class="box-set box-footer">
                 <h6>&copy Copyright Coding Bootcamp 2017</h6>
-            </section>
+            </section> -->
         </section>
     </main>
     <section class="box-footer">
