@@ -1,15 +1,12 @@
-body {
-    /* background-color: white; */
-}
+/* Navigation Bar Styles */
 
 .navbar {
     background-color: white;
     height: 80px;
     width: auto;
-    /* margin-left: 0;
-    margin-right: 0; */
 }
 
+/* Left navigation title button */
 #navleft {
     background-color: lightseagreen;
     padding: 10px;
@@ -28,14 +25,11 @@ body {
 /* Navigation links specifications, justification */
 #navlinks {
     text-align: right;
-    /* background-color: blue; */
 }
 
 #navlinks a {
     color: black;
     text-decoration: none;
-    /* font-weight: bold; */
-    /* font-size: x-large; */
 }
 
 #navlinks li {
@@ -43,16 +37,14 @@ body {
     padding: 10px;
 }
 
+/* Dropdown button color and border override */
 .btn-secondary {
     background: white;
     color: black;
     border: none;
 }
 
-.container  {
-    /* background-color: green; */
-}
-
+/* Main body box headers */
 .header h1 {
     margin: 0;
     padding-top: 30px;
@@ -69,34 +61,15 @@ body {
     float: left;
 }
 
-/* Text padding in boxes */
+/* Text padding and sizing in boxes */
 .main-left {
     padding: 20px;
-    /* font-size: small; */
 }
 
 #main-left-vis {
     font-size: small;
 }
 
-.mainbody {
-    /* background-color: blue; */
-    /* height: fit-content; */
-}
-
-/* Details about the footer section and text */
-.footer {
-    color: white;
-    background-color: darkgray;
-    height: 50px;
-    text-align: center;
-    padding: 25px;
-    /* border-color: lightseagreen;
-    border-top: lightseagreen;
-    border-top-width: 50px; */
-    /* position: relative; */
-    /* bottom: 100%; */
-}
 
 /* The box sections */
 .box-set {
@@ -105,11 +78,12 @@ body {
     height: 600px;
 }
 
-/* Box absolute positioning to box section */
+/* Box absolute positioning with respect to box-set */
 .box {
     position: absolute;
 }
 
+/* Summary section boxes and z-index layers */
 .box-sum-outer {
     background: white;
     top: 50px;
@@ -120,29 +94,18 @@ body {
 }
 
 .box-sum {
-    /* background-color: tomato; */
     top: 50px;
     bottom: 40px;
     left: 6%;
     right: 41%;
     z-index: 2;
-    /* border-width: 80px;
-    border: lightseagreen;
-    border-style: solid; */
 }
 
 .box-sum-1 {
-    /* background-color: blue; */
-    /* top: 5%;
-    bottom: 25%; */
-    /* left: 6%;
-    right: 41%; */
     z-index: 3;
-    /* border-width: 80px;
-    border: lightseagreen;
-    border-style: solid; */
 }
 
+/* Visualization section boxes and z-index layers */
 .box-vis-outer {
     background: white;
     top: 50px;
@@ -153,7 +116,6 @@ body {
 }
 
 .box-vis {
-    /* background-color: white; */
     top: 50px;
     bottom: 40px;
     left: 66%;
@@ -162,97 +124,36 @@ body {
 }
 
 .box-vis-1 {
-    /* background-color: blue; */
     top: 25%;
-    /* bottom: 25%; */
     left: 3%;
-    /* right: 40%; */
     z-index: 3;
-    /* border-width: 80px; */
-    /* border: blue;
-    border-style: solid; */
 }
 
 .box-vis-2 {
-    /* background-color: blue; */
     top: 25%;
-    /* bottom: 25%; */
     right: 3%;
-    /* right: 40%; */
     z-index: 3;
-    /* border-width: 80px; */
-    /* border: tomato;
-    border-style: solid; */
 }
 
 .box-vis-3 {
-    /* background-color: blue; */
     bottom: 3%;
-    /* bottom: 25%; */
     left: 3%;
-    /* right: 40%; */
     z-index: 3;
-    /* border-width: 80px; */
-    /* border: fuchsia;
-    border-style: solid; */
 }
 
 .box-vis-4 {
-    /* background-color: blue; */
     bottom: 3%;
-    /* bottom: 25%; */
     right: 3%;
-    /* right: 40%; */
     z-index: 3;
-    /* border-width: 80px; */
-    /* border: yellow;
-    border-style: solid; */
 }
 
+/* Highlight the active visualization box depending on page landed */
 .box-vis-active {
     border: lightseagreen;
     border-style: solid;
 }
-/* Boxes fixed heights and variable widths. Box 1 and 2 */
-.box-1 {
-    background-color: white;
-    top: 50px;
-    bottom: 40px;
-    left: 6%;
-    right: 41%;
-    z-index: 2;
-    /* border-width: 80px;
-    border: lightseagreen;
-    border-style: solid; */
-}
 
-.box-1-outer {
-    background: white;
-    top: 50px;
-    bottom: 40px;
-    left: 4%;
-    right: 39%;
-    z-index: 1;
-}
-
-.box-2 {
-    background-color: white;
-    top: 50px;
-    bottom: 40px;
-    left: 66%;
-    right: 6%;
-    z-index: 2;
-}
-
-.box-2-outer {
-    background: white;
-    top: 50px;
-    bottom: 40px;
-    left: 64%;
-    right: 4%;
-    z-index: 1;
-}
-
+/* Footer section and text */
 .box-footer {
     color: white;
     background-color: darkgray;
@@ -260,9 +161,7 @@ body {
     text-align: center;
     padding: 25px;
     bottom: 0%;
-    /* border-color: lightseagreen;
     border-top: lightseagreen;
-    border-top-width: 50px; */
-    /* position: relative; */
-    /* bottom: 100%; */
+    border-top-width: 5px;
+    border-style: solid;
 }

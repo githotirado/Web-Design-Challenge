@@ -7,7 +7,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Bootstrap Visualization Dashboard</title>
+    <title>Test Bootstrap Visualization Dashboard</title>
   </head>
   <body>
     <nav class="navbar">
@@ -48,20 +48,17 @@
             </section>
             <section class="box box-sum">
                 <header class="header">
-                    <h1>Max Temperature</h1>
+                    <h1>Wind Speed</h1>
                 </header>
                 <hr>
                 <!-- <section id="figure" class="box-sum-1"> -->
                 <section class="box-sum-1">
-                    <img src="Resources/temp.png" width="600" height="300" alt="City Latitude vs Max Temperature">
+                    <img src="Resources/windspeed.png" width="600" height="300" alt="City Latitude vs Wind Speed">
                 </section>
                 <section class="main-left" id="main-left-vis">
                     <p>
-                        The above chart demonstrates that the density of recorded temperatures 
-                        increases as you move toward the equator (latitude = 0) from the poles (latitude=-90, 
-                        latitude=90).  In the month of July, the earth's tilt lends more exposure in the northern 
-                        hemisphere (latitude > 0) to the sun which is why the recorded temperatures are highest in 
-                        the (20 < latitude < 40) band than its counterpart in the southern hemisphere.
+                        During our snapshot on 7/31 the maximum wind speed is mostly in the 0- to 15 mph whether north
+                         or south of the equator.  Fewer cities report wind speeds > 20 mph.
                     </p>
                 </section>
             </section>
@@ -73,7 +70,7 @@
                 </header>
                 <hr>
                 <!-- <section id="vis-images"> -->
-                <section class="box box-vis-1 box-vis-active">
+                <section class="box box-vis-1">
                     <img src="Resources/temp.png" width="150" height="150" alt="City Latitude vs Max Temperature">
                 </section>
                 <section class="box box-vis-2">
@@ -82,7 +79,7 @@
                 <section class="box box-vis-3">
                     <img src="Resources/cloudiness.png" width="150" height="150" alt="City Latitude vs Cloudiness">
                 </section>
-                <section class="box box-vis-4">
+                <section class="box box-vis-4 box-vis-active">
                     <img src="Resources/windspeed.png" width="150" height="150" alt="City Latitude vs Wind Speed">
                 </section>
             </section>

@@ -7,19 +7,19 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Test Bootstrap Visualization Dashboard</title>
+    <title>Bootstrap Visualization Dashboard</title>
   </head>
   <body>
     <nav class="navbar">
         <div class="container">
-            <!-- <div class="row"> -->
+                <!-- Left side title / nav button -->
                 <div id="navleft" class="col-md-2">
-                    <!-- <h3>Lattitude</h3> -->
                     <a href="index.html">Lattitude</a>
                 </div>
+                <!-- Right side dropdown and links -->
                 <div id="navlinks" class="col-md-4">
                     <ul>
-                        <!-- Dropdown button -->
+                        <!-- Dropdown plots menu in nav -->
                         <li class="dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                               Plots
@@ -40,11 +40,12 @@
                         </li>
                     </ul>
                 </div>
-            <!-- </div> -->
         </div>
     </nav>
+    <!-- Main body -->
     <main class="mainbody">
         <section class="box-set">
+            <!-- Left Summary box -->
             <section class="box box-sum-outer">
             </section>
             <section class="box box-sum">
@@ -52,10 +53,11 @@
                     <h1>Summary: Latitude vs. X</h1>
                 </header>
                 <hr>
-                <!-- <section id="figure" class="box-sum-1"> -->
+                <!-- Left image -->
                 <section class="box-sum-1" id="figure-left">
                     <img src="Resources/temp.png" width="200" height="200" alt="City Latitude vs Max Temperature">
                 </section>
+                <!-- Left box text -->
                 <section class="main-left">
                     <p>
                         The purpose of this project was to analyze how weather changes as you get closer to the equator.
@@ -70,6 +72,7 @@
                     </p>
                 </section>
             </section>
+            <!-- Visualizations box -->
             <section class="box box-vis-outer">
             </section>
             <section class="box box-vis">
@@ -95,10 +98,11 @@
             </section> -->
         </section>
     </main>
+    <!-- Footer -->
     <section class="box-footer">
         <h6>&copy Copyright Coding Bootcamp 2017</h6>
     </section>
-    <!-- Optional JavaScript -->
+    <!-- JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
   </body>
 </html>
