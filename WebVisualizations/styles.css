@@ -165,3 +165,14 @@
     border-top-width: 5px;
     border-style: solid;
 }
+
+/* Data page table formatting */
+tr:nth-child(even) {
+    background-color: #f8f5f5;
+}
+
+tr {
+    border-bottom: lightgray;
+    border-style: solid;
+    border-bottom-width: 2px;
+}
