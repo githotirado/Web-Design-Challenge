@@ -44,16 +44,21 @@
     border: none;
 }
 
-/* Main body box headers */
-.header h1 {
+/* Headers styling */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 30px;
     color: lightseagreen;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: x-large;
+}
+
+h5 {
+    text-align: center;
 }
 
 /* Float the image to left of other images or texts */
@@ -75,7 +80,9 @@
 .box-set {
     position: relative;
     background: #e9e9e6;
-    height: 600px;
+    /* height: 600px; */
+    min-height: 600px;
+    max-height: 1000px;
 }
 
 /* Box absolute positioning with respect to box-set */
@@ -83,7 +90,7 @@
     position: absolute;
 }
 
-/* Summary section boxes and z-index layers */
+/* Landing page Summary box and z-index layers */
 .box-sum-outer {
     background: white;
     top: 50px;
@@ -94,7 +101,7 @@
 }
 
 .box-sum {
-    top: 50px;
+    top: 60px;
     bottom: 40px;
     left: 6%;
     right: 41%;
@@ -105,7 +112,7 @@
     z-index: 3;
 }
 
-/* Visualization section boxes and z-index layers */
+/* Landing page Visualization box and z-index layers */
 .box-vis-outer {
     background: white;
     top: 50px;
@@ -116,7 +123,7 @@
 }
 
 .box-vis {
-    top: 50px;
+    top: 60px;
     bottom: 40px;
     left: 66%;
     right: 6%;
@@ -151,6 +158,24 @@
 .box-vis-active {
     border: lightseagreen;
     border-style: solid;
+}
+
+/* Data and Comparison page boxes */
+.box-single-outer {
+    background: white;
+    top: 50px;
+    bottom: 4%;
+    left: 4%;
+    right: 4%;
+    z-index: 1;
+}
+
+.box-single {
+    top: 60px;
+    bottom: 4%;
+    left: 6%;
+    right: 6%;
+    z-index: 2;
 }
 
 /* Footer section and text */
