@@ -1,3 +1,8 @@
+/* main body background color constant */
+body {
+    background: #e9e9e6;
+}
+
 /* Navigation Bar Styles */
 
 .navbar {
@@ -76,10 +81,8 @@ h5 {
 /* The box sections */
 .box-set {
     position: relative;
-    background: #e9e9e6;
-    /* height: 600px; */
     min-height: 600px;
-    max-height: 1000px;
+    overflow: auto;
 }
 
 /* Box absolute positioning with respect to box-set */
@@ -173,6 +176,7 @@ h5 {
     left: 6%;
     right: 6%;
     z-index: 2;
+    overflow: auto;
 }
 
 /* Footer section and text */
