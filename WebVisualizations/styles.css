@@ -10,7 +10,7 @@
 #navleft {
     background-color: lightseagreen;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: bold x-large Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     cursor: pointer;
 }
@@ -18,8 +18,6 @@
 #navleft a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    font-size: x-large;
 }
 
 /* Navigation links specifications, justification */
@@ -179,12 +177,14 @@ h5 {
 
 /* Footer section and text */
 .box-footer {
+    position: fixed;
     color: white;
     background-color: darkgray;
     height: 50px;
+    width: 100%;
     text-align: center;
-    padding: 25px;
-    bottom: 0%;
+    padding: 10px;
+    bottom: 0;
     border-top: lightseagreen;
     border-top-width: 5px;
     border-style: solid;
