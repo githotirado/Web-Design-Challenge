@@ -77,12 +77,10 @@ h5 {
     font-size: small;
 }
 
-
 /* The box sections */
 .box-set {
     position: relative;
     min-height: 600px;
-    overflow: auto;
 }
 
 /* Box absolute positioning with respect to box-set */
@@ -179,6 +177,31 @@ h5 {
     overflow: auto;
 }
 
+/* Comparison page boxes */
+.box-comp-1 {
+    top: 25%;
+    left: 3%;
+    z-index: 3;
+}
+
+.box-comp-2 {
+    top: 25%;
+    right: 3%;
+    z-index: 3;
+}
+
+.box-comp-3 {
+    bottom: 3%;
+    left: 3%;
+    z-index: 3;
+}
+
+.box-comp-4 {
+    bottom: 3%;
+    right: 3%;
+    z-index: 3;
+}
+
 /* Footer section and text */
 .box-footer {
     position: fixed;
@@ -212,75 +235,86 @@ tr {
     }
 
     .box-sum-outer {
-        bottom: 62%;
+        bottom: 47%;
         left: 5%;
         right: 5%;
     }
 
     .box-sum {
-        bottom: 63%;
+        bottom: 47%;
         left: 6%;
         right: 6%;
         z-index: 2;
     }
 
     .box-vis-outer {
-        top: 39%;
+        top: 55%;
         left: 5%;
         right: 5%;
-        bottom:300px;
+        bottom: 15%;
         z-index: 1;
     }
 
     .box-vis {
-        top: 40%;
+        top: 56%;
         left: 6%;
         right: 6%;
         z-index: 2;
-        bottom: 300px;
+        bottom: 14%;
     }
-
-    /* .box-vis-1 {
-        top: 25%;
-        left: 3%;
-        z-index: 3;
-    } */
 
     .box-vis-2 {
         top: 25%;
         left: 30%;
+        right: 53%;
         z-index: 3;
     }
     
     .box-vis-3 {
         top: 25%;
         left: 55%;
+        bottom: 20%;
         z-index: 3;
     }
     
     .box-vis-4 {
         top: 25%;
         right: 3%;
+        bottom: 20%;
         z-index: 3;
     }
 
     .box-single-outer {
-        /* background: white;
-        top: 50px;
-        bottom: 4%;
-        left: 4%;
-        right: 4%;
-        z-index: 1; */
-        bottom: 300px;
+        bottom: 10%;
     }
     
     .box-single {
-        bottom: 300px;
-        /* top: 60px;
-        bottom: 4%;
-        left: 6%;
-        right: 6%;
-        z-index: 2;
-        overflow: auto; */
+        bottom: 10%;
+    }
+
+    .box-comp-1 {
+        top: 15%;
+        left: 3%;
+        z-index: 3;
+    }
+    
+    .box-comp-2 {
+        top: 40%;
+        left: 3%;
+        right: 65%;
+        z-index: 3;
+    }
+    
+    .box-comp-3 {
+        top: 65%;
+        left: 3%;
+        z-index: 3;
+    }
+    
+    .box-comp-4 {
+        top: 90%;
+        left: 3%;
+        right: 65%;
+        z-index: 3;
     }
 }
