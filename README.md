@@ -1,10 +1,13 @@
 # Web-Design-Challenge
-Web Visualization Dashboard (Latitude)
+This dashboard visualizes the results from a data extract using the OpenWeatherMap API. It highlights the changes in temperature, humidity, cloudiness, and wind speed by geographic latitude.
 
-Weather data web site containing seven HTML pages.  A browser width of 1150+ pixels will produce one layout while a browser using a width of less than 1150 pixels will see a reduced layout per page.
+The site is navigable to seven web pages containing summary and detail graphs and observations using the four weather metrics.
+
+# Published web site:
+https://githotirado.github.io/Web-Design-Challenge/WebVisualizations
 
 # index.html: 
-the landing page explaining the weather data collection from OpenWeatherMap API across cities all over the globe.
+The landing page explaining the weather data collection from OpenWeatherMap API across cities all over the globe.
 
 # temp.html, humidity.html, cloudy.html, wind.html:
 Four category pages showing whether the geographic latitude of a city has an influence on the temperature, humidity, cloudiness, and wind speed.
@@ -15,4 +18,4 @@ A table page containing all the data points collected showing the cities polled 
 # comparison.html:
 A main page displaying all 4 plots of latitude vs the weather pattern.
 
-Navigation is activated, with top navigation bar to click between pages and the home page.  Sizing of the browser produced different layouts: browser windows greater than 1150 pixels in width produce one layout while browser windows less than 1150 produce another layout.
+Navigation is active, with top navigation bar to click between pages and the home page.
